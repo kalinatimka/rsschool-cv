@@ -4,7 +4,7 @@
 Tsimafei Kalinouski
 
 ### 2. Contact Info:
-- Phone: +375-44-736-92-79
+- Phone: [+375-44-736-92-79](tel:+375447369279)
 - Telegram: [kalinatimka](https://t.me/kalinatimka)
 - Gmail: <kalinata0799@gmail.com>
 
