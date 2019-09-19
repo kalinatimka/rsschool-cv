@@ -24,3 +24,23 @@ Because with programming i can do my life and life other peoples easier and bett
 
 #### What is important for me?
 Work in team. When you work alone then you less knowledge than you work in pair/team. In team you can find the best solve of problem. And work in team just funny than alone
+
+### 4. Skills:
+
+#### Hard skills:
+- HTML/CSS (4/5)
+- JS (3/5 (including DOM, prototypes and closures))
+- Sass/Less (4/5)
+- Best practices (graceful degradation, progressive enhancement, a11y)
+- Git
+- BEM
+- Gulp/Grunt
+- Npm
+- PHP (3/5), MySQL (3/5)
+
+#### Soft skills:
+- Friendly
+- Sociable
+- Stress Resistant
+- Attentive
+- Знаю 7 гномов из Белоснежки по именам (like this skill? Push 👍)
