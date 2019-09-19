@@ -68,3 +68,6 @@ for (var i = 0; i < imageList.length; i++){
 - Freelance project 1: [site](http://freshfish.kalinatimka.ru);
 - Freelance project 2: [site](http://gulpproject.kalinatimka.ru);
 - Training project on PHP - [github](https://github.com/kalinatimka/yeticave).
+
+### 7. Education: 
+Passed some interactive courses in [HTMLAcademy](https://htmlacademy.ru/profile/id873365/achievements) and solved the some tasks in [CodeWars](https://www.codewars.com/users/kalinatimka). Also completed English course at Pre-Intermediate level in Streamline. Now I'm studying at BSUIR.
