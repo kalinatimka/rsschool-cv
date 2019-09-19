@@ -60,3 +60,11 @@ function saveSrc (imgList) {
 for (var i = 0; i < imageList.length; i++){
     saveSrc(imageList[i]);
 }
+```
+
+### 6. Experience:
+- Training project 1: [site](http://catenergy.kalinatimka.ru)/[github](https://github.com/kalinatimka/cat-energy);
+- Training project on JS: [GH Pages](https://kalinatimka.github.io/code-and-magic)/[github](https://github.com/kalinatimka/code-and-magic)
+- Freelance project 1: [site](http://freshfish.kalinatimka.ru);
+- Freelance project 2: [site](http://gulpproject.kalinatimka.ru);
+- Training project on PHP - [github](https://github.com/kalinatimka/yeticave).
