@@ -71,3 +71,6 @@ for (var i = 0; i < imageList.length; i++){
 
 ### 7. Education: 
 Passed some interactive courses in [HTMLAcademy](https://htmlacademy.ru/profile/id873365/achievements) and solved the some tasks in [CodeWars](https://www.codewars.com/users/kalinatimka). Also completed English course at Pre-Intermediate level in Streamline. Now I'm studying at BSUIR.
+
+### 8. English:
+Completed English course at A2 level in Streamline. Sometimes read books in English (last book: Time Traveller).
