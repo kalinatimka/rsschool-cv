@@ -44,3 +44,19 @@ Work in team. When you work alone then you less knowledge than you work in pair/
 - Stress Resistant
 - Attentive
 - Знаю 7 гномов из Белоснежки по именам (like this skill? Push 👍)
+
+### 5. Code Examples:
+
+```javascript
+var mainImage = document.querySelector('.main-image-js');
+var imageList = document.querySelectorAll('.image-list-item');
+mainImage.src = imageList[0].src;
+console.log(imageList);
+function saveSrc (imgList) {
+    imgList.addEventListener('click', function() {
+        mainImage.src = imgList.src;
+    })
+}
+for (var i = 0; i < imageList.length; i++){
+    saveSrc(imageList[i]);
+}
