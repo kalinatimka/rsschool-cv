@@ -1,9 +1,11 @@
 # Resume
 
 ### 1. First Name, Last Name:
+
 Tsimafei Kalinouski
 
 ### 2. Contact Info:
+
 - Phone: [+375-44-736-92-79](tel:+375447369279)
 - Telegram: [kalinatimka](https://t.me/kalinatimka)
 - Gmail: <kalinata0799@gmail.com>
@@ -63,6 +65,7 @@ for (var i = 0; i < imageList.length; i++){
 ```
 
 ### 6. Experience:
+
 - Training project 1: [site](http://catenergy.kalinatimka.ru)/[github](https://github.com/kalinatimka/cat-energy);
 - Training project on JS: [GH Pages](https://kalinatimka.github.io/code-and-magic)/[github](https://github.com/kalinatimka/code-and-magic)
 - Freelance project 1: [site](http://freshfish.kalinatimka.ru);
@@ -70,7 +73,9 @@ for (var i = 0; i < imageList.length; i++){
 - Training project on PHP - [github](https://github.com/kalinatimka/yeticave).
 
 ### 7. Education: 
+
 Passed some interactive courses in [HTMLAcademy](https://htmlacademy.ru/profile/id873365/achievements) and solved the some tasks in [CodeWars](https://www.codewars.com/users/kalinatimka). Also completed English course at Pre-Intermediate level in Streamline. Now I'm studying at BSUIR.
 
 ### 8. English:
+
 Completed English course at A2 level in Streamline. Sometimes read books in English (last book: Time Traveller).
