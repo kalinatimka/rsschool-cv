@@ -66,3 +66,84 @@ header h1 {
   outline: none;
 }
 
+.about-me {
+  background-color: #eddecc;
+  /* background-color: #c7c1b9; */
+}
+
+.section-header {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: -20px;
+  margin-left: -20px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-header::before,
+.section-header::after {
+  flex-grow: 2;
+  content: "";
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+}
+
+.section-header::before {
+  margin-right: 20px;
+}
+
+.section-header::after {
+  margin-left: 20px;
+}
+
+.about-me {
+  padding-bottom: 40px;
+}
+
+.about-me img {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-me-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 200px; */
+}
+
+.about-me-data .section-header-h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.about-me-data .about-me-info {
+  margin-left: 75px;
+  width: 50%;
+}
+
+.section-header-h3 {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.about-me-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.about-me-table .right {
+  text-align: right;
+}
+
+.about-me-table tr {
+  border-bottom: 2px solid #f7f1da  ;
+}
+
+.about-me-table td {
+  padding-top: 6px;
+}
