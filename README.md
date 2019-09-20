@@ -1,1 +1,1 @@
-[Link to repository](https://kalinatimka.github.io/rsschool-cv/cv)
+https://kalinatimka.github.io/rsschool-cv/cv
