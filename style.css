@@ -188,4 +188,7 @@ header h1 {
   padding-left: 16px;
 }
 
-
+.code-example {
+  background-color: #f7f5ed;
+  padding-bottom: 20px;
+}

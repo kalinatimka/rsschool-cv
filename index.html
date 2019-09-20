@@ -20,6 +20,9 @@
           <a class="button" href="#skills">Skills</a>
         </li>
         <li>
+          <a class="button" href="#code-example">Code Examples</a>
+        </li>
+        <li>
           <a class="button" href="#">Experience</a>
         </li>
         <li>
@@ -121,6 +124,23 @@
             <li>Знаю 7 гномов из Белоснежки по именам (like this skill? Push 👍)</li>
         </ul>
       </div>
+    </section>
+    <section class="container code-example" id="code-example">
+      <h2 class="section-header">Code Examples</h2>
+      <pre>
+          var mainImage = document.querySelector('.main-image-js');
+          var imageList = document.querySelectorAll('.image-list-item');
+          mainImage.src = imageList[0].src;
+          console.log(imageList);
+          function saveSrc (imgList) {
+              imgList.addEventListener('click', function() {
+                  mainImage.src = imgList.src;
+              })
+          }
+          for (var i = 0; i < imageList.length; i++){
+              saveSrc(imageList[i]);
+          }
+      </pre>
     </section>
   </main>
   <footer>
