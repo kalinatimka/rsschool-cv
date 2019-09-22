@@ -192,3 +192,48 @@ header h1 {
   background-color: #f7f5ed;
   padding-bottom: 20px;
 }
+
+.experience {
+  background-color: #eddecc;
+}
+
+.experience-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -3.33%;
+  padding-top: 20px;
+}
+
+.experience article {
+  width: 30%;
+  margin-left: 3.33%;
+  margin-bottom: 40px;
+}
+
+.experience-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.experience-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #918e86;
+}
+
+.experience-header {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.experience .button {
+  padding-bottom: 1px;
+}
+
+.experience .button::after {
+  background-color: #000000;
+  height: 2px;
+}
