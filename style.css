@@ -24,12 +24,12 @@ header h1 {
 
 .header-menu {
   display: flex;
+  justify-content: space-between;
   width: 800px;
   margin: 0;
+  margin-left: 40px;
   padding: 0;
   list-style: none;
-  margin-left: 40px;
-  justify-content: space-between;
 }
 
 .header-nav {
@@ -41,20 +41,20 @@ header h1 {
 .button {
   position: relative;
   display: block;
+  margin: 0px 5px;
+  padding: 5px 0px;
   text-align: center;
   text-decoration: none;
   color: #000000;
-  margin: 0px 5px;
-  padding: 5px 0px;
 }
 
 .button::after {
-  left: 0;
-  bottom: -1px;
   position: absolute;
-  content: "";
+  bottom: -1px;
+  left: 0;
   width: 100%;
   height: 3px;
+  content: "";
 }
 
 .button:hover.button::after,
@@ -67,23 +67,23 @@ header h1 {
 }
 
 .section-header {
-  margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-right: -20px;
-  margin-left: -20px;
-  font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
 }
 .section-header::before,
 .section-header::after {
   flex-grow: 2;
-  content: "";
   width: 200px;
   height: 4px;
   background-color: #000000;
+  content: "";
 }
 
 .section-header::before {
@@ -95,8 +95,8 @@ header h1 {
 }
 
 .about-me {
-  background-color: #eddecc;
   padding-bottom: 40px;
+  background-color: #eddecc;
 }
 
 .about-me img {
@@ -117,8 +117,8 @@ header h1 {
 }
 
 .about-me-data .about-me-info {
-  margin-left: 75px;
   width: 50%;
+  margin-left: 75px;
 }
 
 .section-header-h3 {
@@ -144,16 +144,16 @@ header h1 {
 }
 
 .summary {
-    background-color: #f7f5ed;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  background-color: #f7f5ed;
 }
 
 .summary article {
- width: 35%;
- text-align: justify;
+  width: 35%;
+  text-align: justify;
 }
 
 .summary h3 {
@@ -166,11 +166,11 @@ header h1 {
 }
 
 .skills {
-  background-color: #eddecc;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 40px;
+  background-color: #eddecc;
 }
 
 .skills .section-header {
@@ -188,8 +188,8 @@ header h1 {
 }
 
 .code-example {
-  background-color: #f7f5ed;
   padding-bottom: 20px;
+  background-color: #f7f5ed;
 }
 
 .experience {
@@ -214,24 +214,24 @@ header h1 {
 }
 
 .experience-blackout-mask {
-  opacity: 0;
   position: absolute;
+  top: 0;
   width: 100%;
   height: 98%;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  top: 0;
+  opacity: 0;
 }
 
 .experience-links {
   position: absolute;
-  width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   display: none;
   justify-content: space-around;
+  width: 100%;
   margin: 0;
+  transform: translate(-50%, -50%);
 }
 
 .experience-blackout:hover .experience-blackout-mask {
@@ -244,20 +244,20 @@ header h1 {
 
 .experience-image {
   width: 100%;
-  object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #918e86;
+  object-fit: cover;
 }
 
 .experience-header {
-  text-align: center;
   margin: 0;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .experience .button {
-  color: #ffffff;
   padding: 0;
+  color: #ffffff;
 }
 
 .experience .button::after {
@@ -265,8 +265,8 @@ header h1 {
 }
 
 .education {
-  background-color: #f7f5ed;
   padding-bottom: 30px;
+  background-color: #f7f5ed;
 }
 
 .education p {
@@ -283,9 +283,9 @@ footer {
 }
 
 .contacts {
-  padding: 25px 0;
   display: flex;
   justify-content: space-between;
+  padding: 25px 0;
 }
 
 .button.telegram {
