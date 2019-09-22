@@ -144,7 +144,6 @@ header h1 {
 }
 
 .summary {
-    /* background-color: #c7c1b9; // to footer */
     background-color: #f7f5ed;
     display: flex;
     flex-wrap: wrap;
@@ -236,4 +235,32 @@ header h1 {
 .experience .button::after {
   background-color: #000000;
   height: 2px;
+}
+
+.education {
+  background-color: #f7f5ed;
+  padding-bottom: 30px;
+}
+
+.education p {
+  text-align: justify;
+}
+
+.english {
+  padding-bottom: 30px;
+  background-color: #eddecc;
+}
+
+footer {
+  background-color: #918e86;
+}
+
+.contacts {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button.telegram {
+  margin-left: 50px;
 }
