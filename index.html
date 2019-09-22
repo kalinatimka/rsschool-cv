@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+</head>
+<body>
+  <header class="container">
+    <nav class="header-nav">
+      <h1>Resume</h1>
+      <ul class="header-menu">
+        <li>
+          <a class="button" href="#summary">Summary</a>
+        </li>
+        <li>
+          <a class="button" href="#skills">Skills</a>
+        </li>
+        <li>
+          <a class="button" href="#code-example">Code Examples</a>
+        </li>
+        <li>
+          <a class="button" href="#experience">Experience</a>
+        </li>
+        <li>
+          <a class="button" href="#education">Education</a>
+        </li>
+        <li>
+          <a class="button" href="#english">English</a>
+        </li>
+        <li>
+          <a class="button" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about-me container">
+      <h2 class="section-header">About me</h2>
+      <article class="about-me-data">
+        <img src="assets/images/my-photo.jpg" alt="This is my photo" width="150" height="200">
+        <div class="about-me-info">
+          <h3 class="section-header-h3">
+            Tsimafei Kalinouski
+          </h3>
+          <table class="about-me-table">
+            <tr>
+              <td>Gender: </td>
+              <td class="right">Male</td>
+            </tr>
+            <tr>
+              <td>Age: </td>
+              <td class="right">20y.o.</td>
+            </tr>
+            <tr>
+              <td>Date of birth: </td>
+              <td class="right">1st July, 1999</td>
+            </tr>
+            <tr>
+              <td>Secondary special education: </td>
+              <td class="right">MRC(2014-2018)</td>
+            </tr>
+            <tr>
+              <td>Higher education: </td>
+              <td class="right">BSUIR(2018-now)</td>
+            </tr>
+          </table>
+        </div>
+      </article>
+    </section>
+    <section class="container summary" id="summary">
+      <h2 class="section-header">Summary</h2>
+      <article>
+        <h3>Why I like programming?</h3>
+        <p>
+          Because with programming I can do my life and life other peoples easier and better than now.
+        </p>
+      </article>
+      <article>
+        <h3>What is important for me?</h3>
+        <p>
+          Work in team. In team you can find the best solve of problem. And work in team just funny than alone
+        </p>
+      </article>
+      <article>
+        <h3>Main goal</h3>
+        <p>
+            Work in company with in close-knit team and improve my knowledge
+            in programming.
+        </p>
+      </article>
+      <article>
+        <h3>Temporary goal</h3>
+        <p>
+          Work in one of Big Four companies at 25 y.o.
+        </p>
+      </article>
+    </section>
+    <section class="container skills" id="skills">
+      <h2 class="section-header">Skills</h2>
+      <div>
+        <h3>Hard skills:</h3>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JS</li>
+            <li>Sass/Less</li>
+            <li>Git</li>
+            <li>BEM</li>
+            <li>Gulp/Grunt</li>
+            <li>Npm</li>
+            <li>PHP, MySQL</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft skills</h3>
+        <ul>
+            <li>Friendly</li>
+            <li>Sociable</li>
+            <li>Stress Resistant</li>
+            <li>Attentive</li>
+            <li>Знаю 7 гномов из Белоснежки по именам (like this skill? Push 👍)</li>
+        </ul>
+      </div>
+    </section>
+    <section class="container code-example" id="code-example">
+      <h2 class="section-header">Code Examples</h2>
+      <pre>
+          var mainImage = document.querySelector('.main-image-js');
+          var imageList = document.querySelectorAll('.image-list-item');
+          mainImage.src = imageList[0].src;
+          console.log(imageList);
+          function saveSrc (imgList) {
+              imgList.addEventListener('click', function() {
+                  mainImage.src = imgList.src;
+              })
+          }
+          for (var i = 0; i &lt; imageList.length; i++){
+              saveSrc(imageList[i]);
+          }
+      </pre>
+    </section>
+    <section class="container experience" id="experience">
+      <h2 class="section-header">Experience</h2>
+      <div class="experience-wrapper">
+        <article>
+          <h3 class="experience-header">Training project 1</h3>
+          <div class="experience-blackout">
+            <div class="experience-blackout-mask"></div>
+            <img class="experience-image" src="assets/images/cat-energy.jpg" alt="cat-energy-screenshot" height="200">
+            <p class="experience-links">
+              <a class="button" href="http://catenergy.kalinatimka.ru" target="_blank">Site</a>
+              <a class="button" href="https://github.com/kalinatimka/cat-energy" target="_blank">Github</a>
+            </p>
+          </div>
+        </article>
+        <article>
+          <h3 class="experience-header">Training project on JS</h3>
+          <div class="experience-blackout">
+            <div class="experience-blackout-mask"></div>
+            <img class="experience-image" src="assets/images/code-and-magic.jpg" alt="code-and-magic-screenshot" height="200">
+            <p class="experience-links">
+              <a class="button" href="https://kalinatimka.github.io/code-and-magic" target="_blank">GH pages</a>
+              <a class="button" href="https://github.com/kalinatimka/code-and-magic" target="_blank">Github</a>
+            </p>
+          </div>
+        </article>
+        <article>
+          <h3 class="experience-header">Freelance project 1</h3>
+          <div class="experience-blackout">
+            <div class="experience-blackout-mask"></div>
+            <img class="experience-image" src="assets/images/freshfish.jpg" alt="freshfish-screenshot" height="200">
+            <p class="experience-links">
+              <a class="button" href="http://freshfish.kalinatimka.ru" target="_blank">Site</a>
+            </p>
+          </div>
+        </article>
+        <article>
+          <h3 class="experience-header">Freelance project 2</h3>
+          <div class="experience-blackout">
+            <div class="experience-blackout-mask"></div>
+            <img class="experience-image" src="assets/images/apelio.jpg" alt="apelio-screenshot" height="200">
+            <p class="experience-links">
+              <a class="button" href="http://gulpproject.kalinatimka.ru" target="_blank">Site</a>
+            </p>
+          </div>
+        </article>
+        <article>
+          <h3 class="experience-header">Training project on PHP</h3>
+          <div class="experience-blackout">
+            <div class="experience-blackout-mask"></div>
+            <img class="experience-image" src="assets/images/yeticave.jpg" alt="yeticave-screenshot" height="200">
+            <p class="experience-links">
+              <a class="button" href="https://github.com/kalinatimka/yeticave" target="_blank">Github</a>
+            </p>
+          </div>
+
+        </article>
+      </div>
+    </section>
+    <section class="container education" id="education">
+      <h2 class="section-header">
+        Education
+      </h2>
+      <p>
+        Passed some interactive courses in <a href="https://htmlacademy.ru/profile/id873365/achievements">HTMLAcademy</a>
+        and solved the some tasks in <a href="https://www.codewars.com/users/kalinatimka">CodeWars</a>. Also completed
+        English course at Pre-Intermediate level in Streamline. Now I'm studying at BSUIR.
+      </p>
+    </section>
+    <section class="container english" id="english">
+      <h2 class="section-header">
+        English
+      </h2>
+      <p>
+        Completed English course at A2 level in Streamline. Sometimes read books in English (last book: Time Traveller).
+      </p>
+    </section>
+  </main>
+  <footer class="container" id="contacts">
+    <div class="contacts">
+      <a class="button" href="tel:+375447369279" target="_blank">+375-44-736-92-79</a>
+      <a class="button telegram" href="https://t.me/kalinatimka" target="_blank">Telegram</a>
+      <a class="button" href="mailto:kalinata0799@gmail.com" target="_blank">kalinata0799@gmail.com</a>
+    </div>
+  </footer>
+</body>
+</html>

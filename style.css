@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+header.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d6b789;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  position: relative;
+  display: block;
+  margin: 0px 5px;
+  padding: 5px 0px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.button::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  content: "";
+}
+
+.button:hover.button::after,
+.button:focus.button::after {
+  background-color: #ffffff;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+.section-header::before,
+.section-header::after {
+  flex-grow: 2;
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  content: "";
+}
+
+.section-header::before {
+  margin-right: 20px;
+}
+
+.section-header::after {
+  margin-left: 20px;
+}
+
+.about-me {
+  padding-bottom: 40px;
+  background-color: #eddecc;
+}
+
+.about-me img {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-me-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-data .section-header-h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.about-me-data .about-me-info {
+  width: 50%;
+  margin-left: 75px;
+}
+
+.section-header-h3 {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.about-me-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.about-me-table .right {
+  text-align: right;
+}
+
+.about-me-table tr {
+  border-bottom: 2px solid #f7f1da  ;
+}
+
+.about-me-table td {
+  padding-top: 6px;
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  background-color: #f7f5ed;
+}
+
+.summary article {
+  width: 35%;
+  text-align: justify;
+}
+
+.summary h3 {
+  text-align: left;
+}
+
+.summary .section-header {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  background-color: #eddecc;
+}
+
+.skills .section-header {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.skills div {
+  width: 35%;
+}
+
+.skills ul {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.code-example {
+  padding-bottom: 20px;
+  background-color: #f7f5ed;
+}
+
+.experience {
+  background-color: #eddecc;
+}
+
+.experience-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -3.33%;
+  padding-top: 20px;
+}
+
+.experience article {
+  width: 30%;
+  margin-left: 3.33%;
+  margin-bottom: 40px;
+}
+
+.experience-blackout {
+  position: relative;
+}
+
+.experience-blackout-mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.experience-links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+.experience-blackout:hover .experience-blackout-mask {
+  opacity: 1;
+}
+
+.experience-blackout:hover .experience-links {
+  display: flex;
+}
+
+.experience-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #918e86;
+  object-fit: cover;
+}
+
+.experience-header {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.experience .button {
+  padding: 0;
+  color: #ffffff;
+}
+
+.experience .button::after {
+  height: 2px;
+}
+
+.education {
+  padding-bottom: 30px;
+  background-color: #f7f5ed;
+}
+
+.education p {
+  text-align: justify;
+}
+
+.english {
+  padding-bottom: 30px;
+  background-color: #eddecc;
+}
+
+footer {
+  background-color: #918e86;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.button.telegram {
+  margin-left: 50px;
+}
