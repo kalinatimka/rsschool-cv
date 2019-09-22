@@ -5,16 +5,16 @@ body {
 }
 
 .container {
-  box-sizing: border-box;
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 header.container {
-  background-color: #d6b789;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #d6b789;
 }
 
 header h1 {
@@ -23,11 +23,11 @@ header h1 {
 }
 
 .header-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   width: 800px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   margin-left: 40px;
   justify-content: space-between;
 }
@@ -209,10 +209,37 @@ header h1 {
   margin-bottom: 40px;
 }
 
+.experience-blackout {
+  position: relative;
+}
+
+.experience-blackout-mask {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  top: 0;
+}
+
 .experience-links {
-  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
   justify-content: space-around;
   margin: 0;
+}
+
+.experience-blackout:hover .experience-blackout-mask {
+  opacity: 1;
+}
+
+.experience-blackout:hover .experience-links {
+  display: flex;
 }
 
 .experience-image {
@@ -229,11 +256,11 @@ header h1 {
 }
 
 .experience .button {
-  padding-bottom: 1px;
+  color: #ffffff;
+  padding: 0;
 }
 
 .experience .button::after {
-  background-color: #000000;
   height: 2px;
 }
 
